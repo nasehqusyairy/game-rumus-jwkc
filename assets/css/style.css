@@ -12,10 +12,7 @@ main {
 .container {
   max-width: 75vw;
   margin: 0 auto;
-}
-
-.row {
-  display: flex;
+  position: relative;
 }
 
 .mb-3 {
@@ -24,11 +21,6 @@ main {
 
 .mt-3 {
   margin-top: 1rem;
-}
-
-.col-lg-3 {
-  width: calc(12 / 4);
-  margin-right: 1rem;
 }
 
 button {
@@ -64,6 +56,22 @@ input {
   padding: 1rem;
 }
 
-.col {
+img {
   width: 100%;
+  margin-bottom: 1rem;
 }
+
+.form-group {
+  position: absolute;
+}
+
+#form_kecepatan {
+  top: 430px;
+  left: 50px;
+}
+
+#form_jam {}
+
+#form_jarak {}
+
+#form_tujuan {}
