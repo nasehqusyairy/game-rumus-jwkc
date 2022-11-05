@@ -8,6 +8,7 @@ const inp_nama = document.getElementById('nama')
 const inp_jarak_tempuh = document.getElementById('jarak_tempuh')
 
 const form = document.querySelector('form')
+const tombol = document.querySelector('button')
 
 // ketika form dijalankan
 form.addEventListener('submit', e => {
@@ -19,7 +20,7 @@ form.addEventListener('submit', e => {
   const kecepatan = parseInt(inp_kecepatan.value)
   const jarak = parseInt(inp_jarak_tempuh.value)
   const tujuan = inp_tujuan.value != '' ? inp_tujuan.value : 'tempat tujuan'
-  const nama = inp_nama.value != '' ? inp_nama.value : 'nama'
+  const nama = inp_nama.value != '' ? inp_nama.value : 'Kamu'
 
   // ambil nilai input jam_berangkat kemudian jadikan array berisi jam dan menit
   const jam_berangkat = inp_jam_berangkat.value.split(':')
