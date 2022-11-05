@@ -66,12 +66,26 @@ img {
 }
 
 #form_kecepatan {
-  top: 430px;
+  top: 389px;
   left: 50px;
 }
 
-#form_jam {}
+#form_jam {
+  top: 280px;
+  left: 330px;
+}
 
-#form_jarak {}
+#form_jarak {
+  top: 335px;
+  right: 150px;  
+}
 
-#form_tujuan {}
+#form_tujuan {
+  top: 110px;
+  right: 133px;
+}
+
+#form_nama {
+  top: 180px;
+  left: 330px;
+}
